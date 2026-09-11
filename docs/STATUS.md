@@ -5,7 +5,17 @@ _Last updated: 2026-09-03, after submitting the iOS app to App Store review._
 A resume-here snapshot: what is shipped, what is in flight, and what the open threads are.
 `docs/SPEC.md` §12 remains the detailed running history; this file is the short version.
 
-## In flight: iOS App Store submission (2026-09-03)
+## Shipped: iOS App Store (2026-09)
+
+**APPROVED and LIVE** —
+[Megrim: Migraine Diary](https://apps.apple.com/us/app/megrim-migraine-diary/id6808385548)
+(Apple ID `6808385548`), approved the week of 2026-09-07 after one Guideline 2.1
+information-request round (details below). US storefront only, free, build 1.0.2 (8).
+Post-launch note (2026-09-11): App Store *search* takes days to index a new app, and "Megrim"
+fuzzy-matches "Megillah" until real installs teach the brand term — seeding installs/ratings via
+the direct link is the fix; README now carries the store link so web search picks it up too.
+
+## The submission trail (2026-09-03)
 
 **Megrim is now a two-platform Flutter app.** The iOS port (`app/ios/`, merged same day it was
 scaffolded) runs the identical Dart codebase; the only iOS-specific code is the iPadOS share-sheet

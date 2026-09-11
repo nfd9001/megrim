@@ -9,10 +9,10 @@
   Smart migraine tracking that stays on your device.
 </p>
 
-**Megrim** is a privacy-first, offline-first migraine diary for Android. It automatically
-enriches each logged migraine with weather, barometric-pressure, and astronomical context —
-computed and stored **entirely on your device** — and surfaces personal descriptive analytics
-plus odds-ratio "suspected factors" correlations.
+**Megrim** is a privacy-first, offline-first migraine diary for **Android and iOS**. It
+automatically enriches each logged migraine with weather, barometric-pressure, and astronomical
+context — computed and stored **entirely on your device** — and surfaces personal descriptive
+analytics plus odds-ratio "suspected factors" correlations.
 
 - **No accounts, no server, no telemetry.** By default the app makes no automatic network
   requests (the only exception is the place-name search you type when setting your home
@@ -50,13 +50,23 @@ resume weather lookups and backfill past entries.*
 showed full float precision), reported by an F-Droid reviewer.
 
 **Accepted into F-Droid** — [!43692](https://gitlab.com/fdroid/fdroiddata/-/merge_requests/43692)
-merged 2026-08-23. For a resume-here snapshot of the project — what is shipped, what is in flight, known gaps — see
-[`docs/STATUS.md`](docs/STATUS.md).
+merged 2026-08-23. **Live on the Apple App Store** —
+[Megrim: Migraine Diary](https://apps.apple.com/us/app/megrim-migraine-diary/id6808385548),
+approved 2026-09 (US storefront). For a resume-here snapshot of the project — what is shipped,
+what is in flight, known gaps — see [`docs/STATUS.md`](docs/STATUS.md).
 
 ## Installing
 
-Megrim is distributed outside the big app stores, in keeping with its privacy-first, FOSS goals.
-Pick whichever suits you:
+### iPhone (iOS 16+)
+
+**[Megrim: Migraine Diary on the App Store](https://apps.apple.com/us/app/megrim-migraine-diary/id6808385548)**
+— released 2026-09. Currently on the United States storefront. Same app, same on-device-only
+data model as the Android builds.
+
+### Android
+
+Megrim for Android is distributed outside Google Play, in keeping with its privacy-first, FOSS
+goals. Pick whichever suits you:
 
 - **Direct APK (available now).** Download the signed `app-release.apk` from the
   [Releases page](https://github.com/smaegley/megrim/releases) and install it. You may need to allow
